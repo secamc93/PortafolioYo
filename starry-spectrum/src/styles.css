@@ -1,0 +1,49 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle, #808080, #000000); /* Gris a negro */
+  color: #D3D3D3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+.foto {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+ul.left-align {
+  text-align: left;
+  }
+
+ul.left-align li {
+  margin-bottom: 1px; /* Ajusta el valor según tus necesidades */
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-around; /* Ajusta según tus necesidades */
+  align-items: center;
+  margin-top: 20px;
+}
+
+.project {
+  margin: 0 10px; /* Ajusta el espacio entre las imágenes según tus necesidades */
+}
+
+.project-image {
+  width: 100px; /* Ajusta el tamaño según tus necesidades */
+  height: auto;
+  cursor: pointer;
+}
+
